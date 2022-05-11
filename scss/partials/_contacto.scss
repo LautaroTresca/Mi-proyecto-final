@@ -1,0 +1,87 @@
+@import "../variables/variables";
+
+
+
+
+.main-contacto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.formulario-contacto{
+    display: flex;
+    background: $fondo-blur;
+    box-shadow: 0 8px 32px 0 $sombra;
+    backdrop-filter: blur( 4.5px );
+    border-radius: 20px;
+    border: 1px solid #ffffff2e;
+    width: 500px;
+    padding: 20px;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    animation: zoomIn 1s;
+}
+
+
+input{
+    margin: 20px;
+    border: none;
+    background: $fondo-boton;
+    border-bottom: 1px solid #0000004a;
+}
+
+
+select{
+    background: $fondo-boton;
+    backdrop-filter: blur( 4.5px );
+    border-radius: 5px;
+}
+
+
+.especifique-su-consulta{
+    margin: 20px;
+}
+
+
+textarea{
+    background-color: $fondo-textarea;
+}
+
+.form-nombre-apellido{
+    width: min-content;
+    text-align: center;
+}
+
+.caja-formulario{
+    padding: 50px 0px 50px 0px;
+}
+
+
+.boton-enviar{
+    margin-top: 10px;
+    background: #ffffff00;
+    backdrop-filter: blur( 4.5px );
+    border-radius: 5px;
+}
+
+
+
+.numero-wpp{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.texto-redes{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $negro;
+    font-weight: bold;
+    justify-content: space-evenly;
+}

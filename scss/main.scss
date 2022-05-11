@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import "./partials/index";
+@import "./partials/_contacto.scss";
+@import "./partials/_donde-nos-encontras.scss";
+@import "./partials/_preguntas-frecuentes.scss";
+@import "./partials/_trabajos.scss";
+@import "./partials/_general";
+@import "./partials/mediaqueris";
+@import "./scss2/extend";
+@import "./scss2/mixin";
+

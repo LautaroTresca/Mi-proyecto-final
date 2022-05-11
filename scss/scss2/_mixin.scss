@@ -1,0 +1,18 @@
+@import "../variables/variables";
+
+
+
+
+@mixin flex-ul-nav-index{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.nav-ul-otras-paginas{
+    @include flex-ul-nav-index;
+}

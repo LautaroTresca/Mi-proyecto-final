@@ -1,0 +1,12 @@
+.nav-index{
+    display: flex;
+    padding-right: 10px;
+}
+
+
+
+.nav-ul-otras-paginas{
+    @extend .nav-index;
+    animation: fadeInDown 1s;
+    justify-content: center;
+}

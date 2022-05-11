@@ -1,0 +1,240 @@
+@media screen and (max-width: 768px) {
+
+
+
+     
+    .main-index {
+         display: flex;
+         margin-bottom: 0;
+         flex-wrap: wrap;
+         flex-direction: column;
+         align-items: center;
+    }
+
+
+
+
+
+    .main-preguntas-frecuentes{
+          display: grid;
+          grid-template-columns: auto;
+          gap: 60px;
+     }
+
+
+
+
+
+    .headerIndex{
+         display: flex;
+         margin-bottom: 187px;
+         align-items: center;
+         flex-direction: column;
+         align-content: center;
+         flex-wrap: wrap;
+    }
+
+
+
+
+    .header-img{
+         grid-area: img;
+
+    }
+
+
+
+
+    .nav-index{
+         max-width: 380px;
+    }
+
+
+
+
+    .nav-ul-otras-paginas{
+          max-width: 768px;
+     }
+
+
+
+
+     .flex-ul-nav-index{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 10px;
+     }
+
+
+
+
+    .columnas-footer-index {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         align-content: center;
+    }
+
+
+
+
+    .columna-1-index{
+         padding: 0;
+    }
+
+
+
+
+    .columna-2-index{
+         grid-area: renglon2;
+         justify-items: center;
+    }
+
+
+
+
+    .columna-3-index{
+         display: flex;
+         align-items: center;
+         margin: 0;
+    }
+    
+
+
+
+    .ul-footer{
+         align-items: center;
+    }
+
+
+
+
+    .footer-index{
+         margin-top: 245px;
+    }
+
+
+
+
+    .MainPreguntasFrecuentes{
+         display: flex;
+         flex-wrap: wrap;
+         min-width: 350px;
+    }
+
+
+
+
+    .logo-header-contacto{
+         animation: fadeInLeft;
+         animation-duration: .5s;
+    }
+
+
+
+
+    .titulo-nav{
+         padding-left: 0;
+         animation: zoomIn;
+         animation-duration: 0.5s;
+    }
+
+
+
+
+    .footer-contacto{
+         width: 100%;
+    }
+
+
+
+
+    .gridHeaderContacto{
+         display: flex;
+         justify-content: space-around;
+    }
+
+
+
+    
+    .formulario-contacto{
+         width: 425px;
+    }
+
+
+
+
+    textarea{
+         width: 300px;
+
+    }
+
+
+
+
+    .grid-container-trabajos{
+         display: grid;
+         grid-template-columns: repeat(1, auto);
+         grid-template-rows: repeat(6, auto);
+    }
+
+
+
+    
+}
+
+
+
+
+@media screen and (max-width: 430px) {
+
+
+
+     .tarjetas{
+          width: 240px;
+     }
+
+
+
+
+     .fotos-tarjetas{
+          width:200px;
+     }
+
+
+
+
+    .titulo-index{
+         text-align: center;
+    }
+
+
+
+
+    .subtitulo-index{
+         padding-left: 20px;
+    }
+
+
+
+
+    .formulario-contacto{
+          width: 250px;
+     }
+
+
+
+
+     textarea{
+          width: 200px;
+     }
+
+
+
+
+     .nav-ul-otras-paginas{
+          flex-direction: column;
+          align-items: center;
+     }
+}
