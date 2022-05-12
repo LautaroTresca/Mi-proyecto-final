@@ -13,8 +13,7 @@
 
 .nav-index{
     display: flex;
-    animation: fadeInRight;
-    animation-duration: 1.2s;
+    animation: $degradado-hacia-izquierda 1.2s;
     justify-content: end;
     align-items: flex-start;
     padding-right: 10px;
@@ -35,8 +34,7 @@
 .main-index{
     margin-bottom: 200px;
     display: grid;
-    animation: zoomIn;
-    animation-duration: 2s;
+    animation: $zoom 1.5s;
     justify-items: center;
 }
 
@@ -44,9 +42,9 @@
 
 
 .titulo-index{
-    font-family: 'Hurricane', cursive;
+    font-family: $fuente-cursiva;
     font-size: 120px;
-    font-style: oblique;
+    font-style: $oblicuo;
     margin: 0;
 }
 
@@ -57,86 +55,6 @@
     margin: 0;
     padding-left: 250px;
     font-family: 'Cormorant Garamond', serif;
-    font-weight: bold;
-    font-style: oblique;
+    font-weight: $negrita;
+    font-style: $oblicuo;
 }
-
-
-
-
-.footer-index{
-   font-family: 'Nunito', sans-serif;
-   font-weight: bold;
-   background-color: rgba(245, 222, 179, 0.685);
-}
-
-
-
-
-.columnas-footer-index{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-
-
-
-.columna-1-index{
-    display: grid;
-    padding-left: 20px;
-}
-
-
-
-
-.columna-2-index{
-    height: 150px;
-    display: grid;
-    align-content: center;
-    justify-items: center;
-}
-
-
-
-
-.columna-3-index{
-    display: grid;
-    flex-direction: column;
-    margin-right: 15px;
-    justify-items: end;
-}
-
-
-
-
-.ul-footer{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    font-weight: bolder;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-
-
-
-.a-footer{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    transition: color 0.2s;
-}
-
-
-
-
-.a-footer:hover{
-    color: gray;
-    transform: scale(1.1,1.1);
-}
-
-

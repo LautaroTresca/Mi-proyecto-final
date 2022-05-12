@@ -4,13 +4,13 @@
 
 
 .main-preguntas-frecuentes{
-    font-size: large;
-    font-style: italic;
-    background: #fff3d233;
-    box-shadow: 0 8px 32px 0 $sombra;
+    font-size:large;
+    font-style: $oblicuo;
+    background: $transparente;
+    box-shadow: 0 8px 32px 0 $sombra-1;
     backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 15px solid #ffffff00;
+    border-radius: $radio-borde-s;
+    padding: 15px;
     margin: 150px 0px 150px 0px;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -49,5 +49,7 @@
 
 
 .respuestas{
-    color:#383838;
+    color:$gris-3;
+    font-weight: $negrita;
+    margin-top: 30px;
 }

@@ -1,29 +1,78 @@
-// colores
-$negro: black;
-$beige: wheat;
-$gris: grey;
-$gris-topo: #a1a1a1;
-$gris-oscuro: #313131;
-$blanco: white;
+// COLORES
+$transparente: #ffffff00;
+$negro: #000000;
+$beige-1: #f5deb3;
+$beige-2: #f5deb3b4;
+$gris-1: #afafaf;
+$gris-2: #808080;
+$gris-3: #495057;
+$gris-4: #363636;
+$blanco: #ffffff;
+$semi-transparente: #ffffff77;
 
 
 
 
-// fondos
+// FONDOS
 $fondo-blur-beige: #f5deb3b4;
-$fondo-blur: #ffffff66;
+$fondo-blur: #ffffff81;
 $fondo-textarea: #ffffff94;
 
 
 
 
-// botones
-$fondo-boton: #ffffff00;
+
+// SOMBRAS
+$sombra-1: #000000db;
 
 
 
 
-// sombra
-$sombra: #000000db;
+
+// ESTILOS DE LETRA
+$oblicuo: oblique;
+$negrita: bold;
+$sin-decoracion: none;
+
+
+
+
+// ANIMACIONES
+$degradado-hacia-abajo: fadeInDown;
+$zoom: zoomIn;
+$degradado-hacia-izquierda: fadeInRight;
+
+
+
+
+// FUENTES
+$fuente-cursiva: 'Hurricane', cursive;
+$fuente-imprenta: 'Nunito', sans-serif;
+
+
+
+
+// BORDES
+$sin-borde: none;
+$borde-xs: 1px;
+$borde-s: 2px;
+$borde-m: 4px;
+$borde-l: 6px;
+$borde-xl: 8px;
+$borde-xxl: 10px;
+
+
+
+
+// RADIOS DE BORDE
+$radio-borde-xs: 5px;
+$radio-borde-s: 10px;
+$radio-borde-m: 20px;
+$radio-borde-l: 30px;
+$radio-borde-xl: 40px;
+$radio-borde-xxl: 50px;
+
+
+
 
 

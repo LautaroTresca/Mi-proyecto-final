@@ -11,8 +11,7 @@
 
 .nav-index, .nav-ul-otras-paginas {
   display: flex;
-  animation: fadeInRight;
-  animation-duration: 1.2s;
+  animation: fadeInRight 1.2s;
   justify-content: end;
   align-items: flex-start;
   padding-right: 10px; }
@@ -25,12 +24,11 @@
 .main-index {
   margin-bottom: 200px;
   display: grid;
-  animation: zoomIn;
-  animation-duration: 2s;
+  animation: zoomIn 1.5s;
   justify-items: center; }
 
 .titulo-index {
-  font-family: 'Hurricane', cursive;
+  font-family: "Hurricane", cursive;
   font-size: 120px;
   font-style: oblique;
   margin: 0; }
@@ -42,52 +40,6 @@
   font-weight: bold;
   font-style: oblique; }
 
-.footer-index {
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
-  background-color: rgba(245, 222, 179, 0.685); }
-
-.columnas-footer-index {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-
-.columna-1-index {
-  display: grid;
-  padding-left: 20px; }
-
-.columna-2-index {
-  height: 150px;
-  display: grid;
-  align-content: center;
-  justify-items: center; }
-
-.columna-3-index {
-  display: grid;
-  flex-direction: column;
-  margin-right: 15px;
-  justify-items: end; }
-
-.ul-footer {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  font-weight: bolder;
-  flex-direction: column;
-  justify-content: space-around; }
-
-.a-footer {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: color 0.2s; }
-
-.a-footer:hover {
-  color: gray;
-  transform: scale(1.1, 1.1); }
-
 .main-contacto {
   display: flex;
   justify-content: space-around;
@@ -95,11 +47,11 @@
 
 .formulario-contacto {
   display: flex;
-  background: #ffffff66;
+  background: #ffffff81;
   box-shadow: 0 8px 32px 0 #000000db;
-  backdrop-filter: blur(4.5px);
+  backdrop-filter: blur(4px);
   border-radius: 20px;
-  border: 1px solid #ffffff2e;
+  border: 1px solid #000000;
   width: 500px;
   padding: 20px;
   font-weight: bold;
@@ -111,7 +63,7 @@ input {
   margin: 20px;
   border: none;
   background: #ffffff00;
-  border-bottom: 1px solid #0000004a; }
+  border-bottom: 1px solid #afafaf; }
 
 select {
   background: #ffffff00;
@@ -132,10 +84,16 @@ textarea {
   padding: 50px 0px 50px 0px; }
 
 .boton-enviar {
+  padding: 0px 5px 0px 5px;
   margin-top: 10px;
   background: #ffffff00;
   backdrop-filter: blur(4.5px);
   border-radius: 5px; }
+
+.boton-enviar:hover {
+  background-color: #495057;
+  color: #ffffff;
+  transition: all .3s; }
 
 .numero-wpp {
   display: flex;
@@ -146,7 +104,7 @@ textarea {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: black;
+  color: #000000;
   font-weight: bold;
   justify-content: space-evenly; }
 
@@ -162,9 +120,9 @@ iframe {
 
 .direccion {
   height: 70px;
-  margin: 0%;
+  margin: 0;
   display: flex;
-  color: black;
+  color: #000000;
   align-items: center;
   justify-content: center;
   font-weight: bold;
@@ -172,12 +130,12 @@ iframe {
 
 .main-preguntas-frecuentes {
   font-size: large;
-  font-style: italic;
-  background: #fff3d233;
+  font-style: oblique;
+  background: #ffffff00;
   box-shadow: 0 8px 32px 0 #000000db;
   backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 15px solid #ffffff00;
+  padding: 15px;
   margin: 150px 0px 150px 0px;
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -200,7 +158,9 @@ iframe {
   align-items: center; }
 
 .respuestas {
-  color: #383838; }
+  color: #495057;
+  font-weight: bold;
+  margin-top: 30px; }
 
 .flex-main-trabajos {
   gap: 50px;
@@ -213,8 +173,8 @@ iframe {
 .tarjetas {
   padding: 20px;
   width: min-content;
-  background: rgba(255, 255, 255, 0.466);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.788);
+  background: #ffffff77;
+  box-shadow: 0 8px 32px 0 #000000db;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px; }
@@ -225,18 +185,17 @@ iframe {
 
 .caja-texto-tarjetas {
   margin-top: 20px;
-  border-top: 1px solid #a1a1a1;
+  border-top: 1px solid #808080;
   padding-top: 10px; }
 
 body {
-  font-family: 'PT Sans', sans-serif;
   background-image: url(../multimedia/background.jpg);
   background-position: center;
   background-size: cover; }
 
 .header-otras-paginas {
-  border-bottom: 1px solid black;
-  background-color: wheat;
+  border-bottom: 1px solid #000000;
+  background-color: #f5deb3;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -247,7 +206,7 @@ body {
   margin-top: 10px; }
 
 .footer {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   background: #f5deb3b4;
   backdrop-filter: blur(4px);
@@ -255,22 +214,21 @@ body {
   padding: 0px 20px 1px 20px; }
 
 .a {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   text-decoration: none;
   text-decoration: none;
-  color: #fff;
   padding: 5px 10px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all .5s ease;
   position: relative;
   outline: none;
-  border-radius: 5px;
+  border-radius: 4px;
   z-index: 0;
   color: #495057; }
 
 .a:hover {
-  color: #fff; }
+  color: #ffffff; }
 
 .a:hover:after {
   height: 100%; }
@@ -279,17 +237,17 @@ body {
   content: "";
   position: absolute;
   z-index: -1;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   left: 0;
   top: 0;
   height: 0;
   width: 100%;
-  background: #313131;
-  border-radius: 2px solid black; }
+  background: #363636;
+  border-radius: 2px solid #000000; }
 
 .titulo-nav {
   padding-left: 25px;
-  font-family: 'Hurricane', cursive;
+  font-family: "Hurricane", cursive;
   font-style: oblique;
   animation: fadeInDown 1s; }
 
@@ -298,22 +256,22 @@ body {
   margin-top: 15px;
   margin-left: 15px;
   float: left;
-  border: 1px ridge #e4c8a4;
+  border: 4px solid #f5deb3;
   transition: border 0.2s;
   animation: fadeInLeft 1s; }
 
 .header-img:hover {
-  border: #383838 solid 1px; }
+  border: #363636 solid 1px; }
 
 .logo-footer {
   width: 50px; }
 
 .p-footer {
-  color: #313131;
+  color: #363636;
   width: min-content; }
 
 .p-footer:hover {
-  color: #a1a1a1;
+  color: #808080;
   width: min-content; }
 
 @media screen and (max-width: 768px) {

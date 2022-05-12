@@ -17,18 +17,18 @@
 .tarjetas{
     padding: 20px;
     width: min-content;
-    background: rgba(255, 255, 255, 0.466);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.788);
+    background: $semi-transparente;
+    box-shadow: 0 8px 32px 0 $sombra-1;
     backdrop-filter: blur( 2px );
     -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
+    border-radius: $radio-borde-s;
 }
 
 
 
 
 .fotos-tarjetas{
-    border-radius: 5px;
+    border-radius: $radio-borde-xs;
     width: 300px;
 }
 
@@ -37,7 +37,7 @@
 
 .caja-texto-tarjetas{
     margin-top: 20px;
-    border-top: 1px solid $gris-topo;
+    border-top: $borde-xs solid $gris-2;
     padding-top: 10px;
 }
 

@@ -14,31 +14,31 @@
 .formulario-contacto{
     display: flex;
     background: $fondo-blur;
-    box-shadow: 0 8px 32px 0 $sombra;
-    backdrop-filter: blur( 4.5px );
-    border-radius: 20px;
-    border: 1px solid #ffffff2e;
+    box-shadow: 0 8px 32px 0 $sombra-1;
+    backdrop-filter: blur( 4px );
+    border-radius: $radio-borde-m;
+    border: $borde-xs solid $negro;
     width: 500px;
     padding: 20px;
-    font-weight: bold;
+    font-weight: $negrita;
     flex-direction: column;
     align-items: center;
-    animation: zoomIn 1s;
+    animation: $zoom 1s;
 }
 
 
 input{
     margin: 20px;
-    border: none;
-    background: $fondo-boton;
-    border-bottom: 1px solid #0000004a;
+    border: $sin-borde;
+    background: $transparente;
+    border-bottom: $borde-xs solid $gris-1;
 }
 
 
 select{
-    background: $fondo-boton;
+    background: $transparente;
     backdrop-filter: blur( 4.5px );
-    border-radius: 5px;
+    border-radius: $radio-borde-xs;
 }
 
 
@@ -62,10 +62,18 @@ textarea{
 
 
 .boton-enviar{
+    padding: 0px 5px 0px 5px;
     margin-top: 10px;
-    background: #ffffff00;
+    background: $transparente;
     backdrop-filter: blur( 4.5px );
-    border-radius: 5px;
+    border-radius: $radio-borde-xs;
+}
+
+
+.boton-enviar:hover{
+    background-color: $gris-3;
+    color: $blanco;
+    transition: all .3s;
 }
 
 
@@ -73,15 +81,15 @@ textarea{
 .numero-wpp{
     display: flex;
     align-items: center;
-    font-weight: bold;
+    font-weight: $negrita;
 }
 
 
 .texto-redes{
     display: flex;
     align-items: center;
-    text-decoration: none;
+    text-decoration: $sin-decoracion;
     color: $negro;
-    font-weight: bold;
+    font-weight: $negrita;
     justify-content: space-evenly;
 }

@@ -3,7 +3,6 @@
 
 
 body{
-    font-family: 'PT Sans', sans-serif;
     background-image: url(../multimedia/background.jpg);
     background-position: center;
     background-size: cover;
@@ -13,8 +12,8 @@ body{
 
 
 .header-otras-paginas{
-    border-bottom: 1px solid $negro;
-    background-color: $beige;
+    border-bottom: $borde-xs solid $negro;
+    background-color: $beige-1;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -33,9 +32,9 @@ body{
 
 
 .footer {
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    background: #f5deb3b4;
+    font-family: $fuente-imprenta;
+    font-weight: $negrita;
+    background: $beige-2;
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     padding: 0px 20px 1px 20px;
@@ -46,26 +45,25 @@ body{
 
 
 .a{
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
+    font-family: $fuente-imprenta;
+    font-weight: $negrita;
     text-decoration:none;
     text-decoration: none;
-    color: #fff;
     padding: 5px 10px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all .5s ease;
     position: relative;
     outline: none;
-    border-radius: 5px;
+    border-radius: $borde-m;
     z-index: 0;
-    color: #495057; 
+    color: $gris-3; 
 }
 
 
 
 
 .a:hover{
-    color: #fff;
+    color: $blanco;
 }
 
 .a:hover:after{
@@ -76,13 +74,13 @@ body{
     content: "";
   position: absolute;
   z-index: -1;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   left: 0;
   top: 0;
   height: 0;
   width: 100%;
-  background: $gris-oscuro;
-  border-radius: 2px solid black;
+  background: $gris-4;
+  border-radius: $borde-s solid $negro;
 }
 
 
@@ -90,9 +88,9 @@ body{
 
 .titulo-nav{
     padding-left: 25px;
-    font-family: 'Hurricane', cursive;
-    font-style: oblique;
-    animation: fadeInDown 1s;
+    font-family: $fuente-cursiva;
+    font-style: $oblicuo;
+    animation: $degradado-hacia-abajo 1s;
 }
 
 
@@ -103,7 +101,7 @@ body{
     margin-top: 15px;
     margin-left: 15px;
     float: left;
-    border: 1px ridge rgb(228, 200, 164);
+    border: $borde-m solid $beige-1;
     transition: border 0.2s;
     animation: fadeInLeft 1s;
 }
@@ -112,7 +110,7 @@ body{
 
 
 .header-img:hover{
-    border: #383838 solid 1px;
+    border: $gris-4 solid $borde-xs;
 }
 
 
@@ -127,7 +125,7 @@ body{
 
 
 .p-footer{
-    color: $gris-oscuro;
+    color: $gris-4;
     width:min-content;
 }
 
@@ -135,6 +133,6 @@ body{
 
 
 .p-footer:hover{
-    color: $gris-topo;
+    color: $gris-2;
     width: min-content;
 }
