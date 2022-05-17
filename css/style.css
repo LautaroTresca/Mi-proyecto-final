@@ -310,7 +310,7 @@ body {
     gap: 60px; }
   .headerIndex {
     display: flex;
-    margin-bottom: 187px;
+    margin-bottom: 50px;
     align-items: center;
     flex-direction: column;
     align-content: center;
@@ -377,7 +377,8 @@ body {
   .titulo-index {
     text-align: center; }
   .subtitulo-index {
-    padding-left: 20px; }
+    padding-left: 20px;
+    margin-bottom: 100px; }
   .formulario-contacto {
     width: 250px; }
   textarea {
