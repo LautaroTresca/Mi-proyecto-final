@@ -4,6 +4,7 @@
 
 
 .main-preguntas-frecuentes{
+    margin: 15px;
     font-size:large;
     font-style: $oblicuo;
     background: $transparente;
@@ -11,7 +12,7 @@
     backdrop-filter: blur( 4px );
     border-radius: $radio-borde-s;
     padding: 15px;
-    margin: 150px 0px 150px 0px;
+    margin: 150px 30px 150px 30px;
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(1, auto);
@@ -52,4 +53,19 @@
     color:$gris-3;
     font-weight: $negrita;
     margin-top: 30px;
+}
+
+
+
+
+.consultas-wpp{
+    font-size: small;
+}
+
+
+
+
+.a-consultas-wpp{
+    text-decoration: none;
+    color: $gris-2;
 }

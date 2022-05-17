@@ -4,14 +4,16 @@
 
 
 .flex-donde-nos-encontras{
-    margin-top: 40px;
+    margin: 50px;
     display: flex;
     justify-content: space-around;
     
 }
 
 
-iframe{
+.mapa{
+    width: 800px;
+    height: 400px;
     box-shadow: 0 8px 32px 0 $sombra-1;
     backdrop-filter: blur( 4.5px );
     border-radius: $radio-borde-m;
@@ -19,6 +21,7 @@ iframe{
 
 
 .direccion{
+    text-align: center;
     height: 70px;
     margin: 0;
     display: flex;

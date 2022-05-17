@@ -109,16 +109,19 @@ textarea {
   justify-content: space-evenly; }
 
 .flex-donde-nos-encontras {
-  margin-top: 40px;
+  margin: 50px;
   display: flex;
   justify-content: space-around; }
 
-iframe {
+.mapa {
+  width: 800px;
+  height: 400px;
   box-shadow: 0 8px 32px 0 #000000db;
   backdrop-filter: blur(4.5px);
   border-radius: 20px; }
 
 .direccion {
+  text-align: center;
   height: 70px;
   margin: 0;
   display: flex;
@@ -129,6 +132,7 @@ iframe {
   font-size: large; }
 
 .main-preguntas-frecuentes {
+  margin: 15px;
   font-size: large;
   font-style: oblique;
   background: #ffffff00;
@@ -136,7 +140,7 @@ iframe {
   backdrop-filter: blur(4px);
   border-radius: 10px;
   padding: 15px;
-  margin: 150px 0px 150px 0px;
+  margin: 150px 30px 150px 30px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(1, auto);
@@ -162,6 +166,13 @@ iframe {
   font-weight: bold;
   margin-top: 30px; }
 
+.consultas-wpp {
+  font-size: small; }
+
+.a-consultas-wpp {
+  text-decoration: none;
+  color: #808080; }
+
 .flex-main-trabajos {
   gap: 50px;
   display: flex;
@@ -179,11 +190,18 @@ iframe {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px; }
 
+.tarjetas:hover {
+  transform: scale(1.1);
+  transition-duration: .4s; }
+
 .fotos-tarjetas {
   border-radius: 5px;
   width: 300px; }
 
 .caja-texto-tarjetas {
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
   margin-top: 20px;
   border-top: 1px solid #808080;
   padding-top: 10px; }
@@ -194,7 +212,7 @@ body {
   background-size: cover; }
 
 .header-otras-paginas {
-  border-bottom: 1px solid #000000;
+  border-bottom: 2px solid #363636;
   background-color: #f5deb3;
   padding: 15px;
   display: flex;
@@ -264,7 +282,12 @@ body {
   border: #363636 solid 1px; }
 
 .logo-footer {
-  width: 50px; }
+  width: 50px;
+  border: 1px solid #495057; }
+
+.logo-footer:hover {
+  transform: scale(1.1);
+  transition-duration: .3s; }
 
 .p-footer {
   color: #363636;
@@ -346,7 +369,7 @@ body {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(6, auto); } }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 460px) {
   .tarjetas {
     width: 240px; }
   .fotos-tarjetas {
@@ -361,7 +384,13 @@ body {
     width: 200px; }
   .nav-ul-otras-paginas {
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .row {
+    align-items: center;
+    flex-direction: column; }
+  .mapa {
+    width: 250px;
+    height: 400px; } }
 
 .nav-ul-otras-paginas {
   display: flex;

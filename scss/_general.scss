@@ -12,7 +12,7 @@ body{
 
 
 .header-otras-paginas{
-    border-bottom: $borde-xs solid $negro;
+    border-bottom: $borde-s solid $gris-4;
     background-color: $beige-1;
     padding: 15px;
     display: flex;
@@ -119,6 +119,14 @@ body{
 
 .logo-footer{
     width: 50px;
+    border: $borde-xs solid $gris-3;
+}
+
+
+
+.logo-footer:hover{
+    transform: scale(1.1);
+    transition-duration: .3s;
 }
 
 
