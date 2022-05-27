@@ -71,7 +71,8 @@ select {
   border-radius: 5px; }
 
 .especifique-su-consulta {
-  margin: 20px; }
+  margin: 20px;
+  text-align: center; }
 
 textarea {
   background-color: #ffffff94; }
@@ -146,17 +147,17 @@ textarea {
   grid-template-rows: repeat(1, auto);
   gap: 60px; }
 
-.pregunta1 {
+.pregunta-1 {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.pregunta2 {
+.pregunta-2 {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.pregunta3 {
+.pregunta-3 {
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -395,7 +396,13 @@ body {
     flex-direction: column; }
   .mapa {
     width: 250px;
-    height: 400px; } }
+    height: 400px; }
+  .pregunta-1 {
+    text-align: center; }
+  .pregunta-2 {
+    text-align: center; }
+  .pregunta-3 {
+    text-align: center; } }
 
 .nav-ul-otras-paginas {
   display: flex;
