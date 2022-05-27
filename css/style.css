@@ -385,7 +385,8 @@ body {
     padding-left: 20px;
     margin-bottom: 100px; }
   .formulario-contacto {
-    width: 250px; }
+    width: 250px;
+    margin-right: 15px; }
   textarea {
     width: 200px; }
   .nav-ul-otras-paginas {
